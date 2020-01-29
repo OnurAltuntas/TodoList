@@ -5,9 +5,16 @@ body {
 }
 
 #container {
-  display: flex;
+ 
   justify-content: flex;
-  background-color: bisque;
+  text-align: center;
+
   width: fit-content;
   height: fit-content;
+  border-radius: 10px;
+
+}
+
+p{
+  padding-left: 30px;
 }

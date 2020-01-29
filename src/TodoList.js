@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import TodoItems from "./TodoItems";
+import "./TodoList.css"
 
 class TodoList extends Component {
 
@@ -45,7 +46,7 @@ class TodoList extends Component {
                 <form onSubmit={this.addItem}>
                 <input ref={(a => this._inputElement = a)}
                  placeholder="enter task">
-                </input>
+                </input><style></style>
                 <button type="sumbit">add</button>
                 </form>
             </div>
