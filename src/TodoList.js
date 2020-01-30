@@ -34,7 +34,6 @@ class TodoList extends Component {
         this._inputElement.value="";
 
         console.log();
-
         e.preventDefault();
     }
     
@@ -59,10 +58,10 @@ class TodoList extends Component {
           <div className="todoListMain">
             <div className="header">
                 <form onSubmit={this.addItem}>
-                <input ref={(a => this._inputElement = a)}
-                 placeholder="enter task">
-                </input><style></style>
-                <button type="sumbit">add</button>
+                    <input  ref={(a => this._inputElement = a)}
+                    placeholder="enter task">
+                    </input><style></style>
+                    <button type="submit" >Add</button>
                 </form>
             </div>
             <TodoItems entries={this.state.items}

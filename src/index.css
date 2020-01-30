@@ -1,20 +1,20 @@
 body {
-  padding: 50px;
-  background-color: #cc0066;
+  padding: 15px;
   font-family: sans-serif;
+  background-color: #cc0066;
+  text-align: center;
 }
 
 #container {
- 
-  justify-content: flex;
   text-align: center;
+  display: inline-block;
+  align-self: center;
   width: fit-content;
   height: fit-content;
-  border-radius: 10px;
-
 }
 
 p{
-  padding-left: 30px;
   color: white;
 }
+
+
